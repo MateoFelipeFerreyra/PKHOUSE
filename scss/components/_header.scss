@@ -1,0 +1,47 @@
+/*----------HEADER-------------*/
+header {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+
+    h1 {
+        color: white;
+        font-size: 50px;
+        font-family: 'Big Shoulders Stencil Text', cursive;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            text-align: center;
+
+            li {
+                color: white;
+                font-family: 'Monda', sans-serif;
+                display: inline-block;
+                margin: 0px 15px 5px;
+
+                &:hover {
+                    background: -webkit-linear-gradient(#37A8FF, #6B27FF, #A513FF, #FF50EE);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+    }
+}
+.bg-index {
+    background-color: #00000095;
+}
+
+.bg-black {
+    background-color: black;
+}

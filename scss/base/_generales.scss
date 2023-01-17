@@ -1,0 +1,32 @@
+/*-------GENERALES----------*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/*--------------FRANJAS---------------*/
+.franja-1 {
+    width: 100%;
+    height: 1vh;
+    background: linear-gradient(-45deg, #000000, #37A8FF, #6B27FF, #A513FF, #FF50EE);
+}
+
+.franja-2 {
+    width: 100%;
+    height: 0.6vh;
+    background: linear-gradient(-45deg, #FF50EE, #A513FF, #6B27FF, #37A8FF, #000000);
+}

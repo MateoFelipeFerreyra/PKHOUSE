@@ -1,0 +1,29 @@
+//! VARIABLES
+$form-color: #b61aff;
+$form-boton-color:#cd65fd;
+$footer-color: white;
+
+//! COLORES LISTA
+
+$colores:
+black,
+white;
+
+//! FONT-SIZE LISTA
+
+$font-size:
+60px,
+50px,
+40px,
+30px,
+20px;
+
+@mixin mixin-presets ($display, $bg-repeat, $bg-size, $bg-position, $bg-attachment, $justify, $align){
+    display: $display;
+    background-repeat: $bg-repeat;
+    background-size: $bg-size;
+    background-position: $bg-position;
+    background-attachment: $bg-attachment;
+    justify-content: $justify;
+    align-items: $align;
+}
