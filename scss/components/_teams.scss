@@ -1,6 +1,6 @@
 /*---------------------TEAMS----------------------*/
 .body-team {
-    background: linear-gradient(-45deg, #6f00ffe0, #ab2dffcc, #06a4eee2, rgba(0, 208, 255, 0.821));
+    background: linear-gradient(-45deg, #181818, #141414, rgb(42, 42, 42));
 }
 
 .team-1 {
@@ -17,7 +17,7 @@
     }
 
     p {
-        font-size: nth($font-size,5);
+        font-size: nth($font-size, 5);
         font-family: 'Fjalla One', sans-serif;
         color: rgb(255, 255, 255);
         text-align: center;
@@ -33,9 +33,9 @@
     background-color: rgb(241, 241, 241);
 
     p {
-        font-size: nth($font-size,5);
+        font-size: nth($font-size, 5);
         font-family: 'Fjalla One', sans-serif;
-        color: nth($colores,1);
+        color: nth($colores, 1);
         text-align: center;
     }
 
@@ -59,7 +59,7 @@
     }
 
     p {
-        font-size: nth($font-size,5);
+        font-size: nth($font-size, 5);
         font-family: 'Fjalla One', sans-serif;
         color: rgb(255, 255, 255);
         text-align: center;
@@ -67,9 +67,22 @@
     }
 }
 
+.atletas {
+    h2 {
+        font-size: nth($font-size, 3);
+        font-family: 'Fjalla One', sans-serif;
+        color: nth($colores, 1);
+        text-align: center;
+        background-color: white;
+        width: 100%;
+        height: 50px;
+    }
+}
+
 .container-carrusel {
     width: 541px;
-    height: 700px;
+    height: 740px;
+    padding-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;

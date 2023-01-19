@@ -125,7 +125,7 @@ header {
 
 /*---------------------TEAMS----------------------*/
 .body-team {
-  background: linear-gradient(-45deg, #6f00ffe0, #ab2dffcc, #06a4eee2, rgba(0, 208, 255, 0.821)); }
+  background: linear-gradient(-45deg, #181818, #141414, #2a2a2a); }
 
 .team-1 {
   width: 100%;
@@ -193,9 +193,19 @@ header {
     color: white;
     text-align: center; }
 
+.atletas h2 {
+  font-size: 40px;
+  font-family: 'Fjalla One', sans-serif;
+  color: black;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  height: 50px; }
+
 .container-carrusel {
   width: 541px;
-  height: 700px;
+  height: 740px;
+  padding-top: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto; }
@@ -640,12 +650,12 @@ footer {
     grid-template-columns: 100%;
     grid-template-rows: 70%;
     width: 100%;
-    height: 70vh; }
+    height: 75vh; }
   .team-2 {
     grid-template-columns: 100%;
     grid-template-rows: 50%;
     width: 100%;
-    height: 80vh; }
+    height: 85vh; }
   .team-3 {
     grid-template-columns: 100%;
     grid-template-rows: 60%;
